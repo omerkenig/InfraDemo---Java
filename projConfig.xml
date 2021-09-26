@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<environment>
+  <BrowserType>chrome</BrowserType> 
+  <URL>http://yoniflenner.net/demo</URL>  
+  <User>selenium</User>
+  <Pass>webdriver</Pass>
+  <WaitTime>10</WaitTime>
+  <ImageRepositoryPath>C:/test/InfraDemo/ImageRepository/</ImageRepositoryPath>
+  <IEDriverPath>projectLibs/IEDriverServer.exe</IEDriverPath>
+  <ChromeDriverPath>projectLibs/chromedriver.exe</ChromeDriverPath>
+  
+  
+  
+  <!-- Report - Logger -->
+  <TimeStampTemplate>yyyy-MM-dd_HH-mm-ss</TimeStampTemplate>
+  <LogFileName>ExecutionLog.txt</LogFileName>
+  <ReportFilePath>C:/Test/InfraDemo/</ReportFilePath>
+  <ReportFileName>ExtentReport.html</ReportFileName>
+
+</environment>
